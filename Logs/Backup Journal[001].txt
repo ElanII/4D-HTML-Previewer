@@ -1,0 +1,10 @@
+*** Full Backup
+Creating archive : Macintosh HD:Users:kbrooks:4D_WORKSPACE:v13:Databases:HTML_previewer:HTML_previewer[0001].4BK
+Attachment(s): 
+	Macintosh HD:Users:kbrooks:4D_WORKSPACE:v13:Databases:HTML_previewer:HTML_previewer.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kbrooks:4D_WORKSPACE:v13:Databases:HTML_previewer:HTML_previewer.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kbrooks:4D_WORKSPACE:v13:Databases:HTML_previewer:HTML_previewer.4DIndx [NOT FOUND]
+Scheduled 1/10/16 12:00 AM
+Starting 1/4/16 11:50 AM
+Ending 1/4/16 11:50 AM
+

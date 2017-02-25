@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <title>CA Counties Choropleth</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <style>
+    path {
+        stroke: grey;
+        stroke-width: 1px;
+    }
+    
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 25px;
+        padding: 2px;
+        font-size: 10px;
+        background: #FFFFE0;
+        border: 1px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+    
+    path.geo {
+        transition: fill 0.2s;
+        fill: black;
+    }
+    
+    path.geo:hover {
+        fill-opacity: 0.8;
+    }
+    
+    path.selected {
+        fill-opacity: 0.8;
+    }
+    </style>
+</head>
+
+<body>
+    <svg class="ca" style="width: 1000px;
+height: 1000px;">
+        <script>
+        d3.json("caFields9.json", function(err, ca) {
+
+            var width = 1000;
+            var height = 1000;
+
+            var div = d3.select("body").append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+            var projection = d3.geo.albers()
+                .translate([480, 250])
+                .scale(2700)
+                .rotate([122.4183, 0])
+                .center([0, 37.7750]);
+
+            var counties = topojson.feature(ca, ca.objects.counties2);
+
+            var path = d3.geo.path().projection(projection);
+
+            var svg = d3.select(".ca");
+
+            /*.style("fill", function(d) {
+    return color(d.features.ac_tot);
+  })*/
+
+            svg.selectAll(".counties2")
+                .data(topojson.feature(ca, ca.objects.counties2).features)
+                .enter().append("path")
+                .attr("class", function(d) {
+                    return "counties2 " + d.id;
+                })
+                .classed("geo", true)
+                .attr("d", path);
+
+            svg.selectAll("path")
+                .on("click", function(d) {
+                    d3.select(".selected").classed("selected", false);
+                    d3.select(this).classed("selected", true).transition().duration(300)
+                    div.transition().duration(300)
+                        .style("opacity", 1);
+                    div.text(d.properties.name)
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY - 30) + "px");
+                })
+
+
+            /* svg.selectAll("path")
+            .on("mouseover", function(d) {
+                d3.select(this).transition().duration(300).style("opacity", 1);
+                div.transition().duration(300)
+                .style("opacity", 1)
+              })
+            .on("mouseout", function() {
+                d3.select(this)
+                .transition().duration(300)
+                .style("opacity", 0.8);
+                div.transition().duration(300)
+                .style("opacity", 0);
+              })
+            */
+        })
+        </script>
+</body>
+
+</html>

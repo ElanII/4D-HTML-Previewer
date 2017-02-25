@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+  .axis text {
+      font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+  }
+
+  .hexagon {
+      fill: none;
+      stroke: #000;
+      stroke-width: .5px;
+  }
+</style>
+
+<body>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="bostock/d3.hexbin.min.js"></script>
+    <script>
+    var margin = {
+            top: 20,
+            right: 20,
+            bottom: 30,
+            left: 40
+        },
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+        // d3.random.normal([mean, [deviation]]) 
+        // generate a random number with a normal distribution.
+    var randomX = d3.random.normal(width / 2, 80),
+        randomY = d3.random.normal(height / 2, 80),
+        // d3.range([start, ]stop[, step])
+        // Generates an array containing an arithmetic progression
+        points = d3.range(2000).map(function() {
+            return [randomX(), randomY()];
+        });
+        // so, 'points' is an array of 2000 elements with random values, x,y
+
+        // d3.scale.linear()
+        // Constructs a new linear scale with the default domain [0,1] and the default range [0,1]
+
+    var colorFunc = d3.scale.linear()
+        .domain([0, 20])
+        .range(["gray", "steelblue"])
+        // d3.interpolateLab(a, b)
+        // Returns a L*a*b* color space interpolator between the two colors a and b
+        .interpolate(d3.interpolateLab);
+
+        // this is where the hexbin area is defined
+        // radious is the size of the hex 
+    var hexbin = d3.hexbin()
+        .size([width, height])
+        .radius(18);
+
+        // Identity scales are a special case of linear scales where the domain and range are identical; the scale and its invert method are both the identity function.
+        // define the functions to return x & y
+    var x = d3.scale.identity().domain([0, width]);
+    var y = d3.scale.linear()
+        .domain([0, height])
+        .range([height, 0]);
+
+        // define the axis
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom")
+        .tickSize(6, -height);
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .tickSize(6, -width);
+
+        // d3.select - select an element from the current document.
+        // This is defining 'svg' - 
+    var svg = d3.select("body")
+        .append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        // clipPaths constrain where color is applied
+    svg.append("clipPath")       // appends a DOM element named 'clipPath'
+          .attr("id", "clip")    // gives it the id 'clip'
+        .append("rect")          // appends an element named 'rect'
+          .attr("class", "mesh") // gives it 'mesh' class
+          .attr("width", width)  // and sets the width & height
+          .attr("height", height);
+
+    svg.append("g")                         // appends a 'g' element
+          .attr("clip-path", "url(#clip)")  // sets the url to the clip element id
+        .selectAll(".hexagon")              // 
+        .data(hexbin(points))               // hexbin is defined above, points is data array
+        .enter().append("path")             // 'enter' seems to enter the data point as a 'path' element
+        .attr("class", "hexagon")           // class is 'hexagon'
+        .attr("d", hexbin.hexagon())        // diameter returned by hexbin func
+        .attr("transform", function(d) {    // 
+            return "translate(" + d.x + "," + d.y + ")";
+        })
+        .style("fill", function(d) {        // calc the fill with the color funct
+            return colorFunc(d.length);         // based on the diameter
+        });
+
+        //  actually draw the axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+    </script>

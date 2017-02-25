@@ -1,88 +1,1 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>D3 Example</title>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <style>
-    
-      .axis text {
-        font: 16pt sans-serif;
-        font-family: 'Poiret One', cursive;
-      }
-
-      .axis path, .axis line {
-        fill: none;
-        stroke: #000;
-        shape-rendering: crispEdges;
-      }
-      .y.axis path, .y.axis line {
-        stroke: none;
-      }
-
-    </style>
-  </head>
-  <body>
-    <script>
-
-      var outerWidth = 500;
-      var outerHeight = 250;
-      var margin = { left: 130, top: 0, right: 0, bottom: 30 };
-      var barPadding = 0.2;
-
-      var xColumn = "population";
-      var yColumn = "name";
-
-      var innerWidth  = outerWidth  - margin.left - margin.right;
-      var innerHeight = outerHeight - margin.top  - margin.bottom;
-
-      var svg = d3.select("body").append("svg")
-        .attr("width",  outerWidth)
-        .attr("height", outerHeight);
-      var g = svg.append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-      var xAxisG = g.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + innerHeight + ")");
-      var yAxisG = g.append("g")
-        .attr("class", "y axis");
-
-      var xScale = d3.scale.linear().range(      [0, innerWidth]);
-      var yScale = d3.scale.ordinal().rangeBands([0, innerHeight], barPadding);
-
-      var xAxis = d3.svg.axis().scale(xScale).orient("bottom")
-        .ticks(5)                   // Use approximately 5 ticks marks.
-        .tickFormat(d3.format("s")) // Use intelligent abbreviations, e.g. 5M for 5 Million
-        .outerTickSize(0);          // Turn off the marks at the end of the axis.
-      var yAxis = d3.svg.axis().scale(yScale).orient("left")
-        .outerTickSize(0);          // Turn off the marks at the end of the axis.
-
-      function render(data){
-
-        xScale.domain([0, d3.max(data, function (d){ return d[xColumn]; })]);
-        yScale.domain(       data.map( function (d){ return d[yColumn]; }));
-
-        xAxisG.call(xAxis);
-        yAxisG.call(yAxis);
-
-        var bars = g.selectAll("rect").data(data);
-        bars.enter().append("rect")
-          .attr("height", yScale.rangeBand());
-        bars
-          .attr("x", 0)
-          .attr("y",     function (d){ return yScale(d[yColumn]); })
-          .attr("width", function (d){ return xScale(d[xColumn]); });
-        bars.exit().remove();
-      }
-
-      function type(d){
-        d.population = +d.population;
-        return d;
-      }
-
-      d3.csv("geonames_cities_top3.csv", type, render);
-
-    </script>
-  </body>
-</html>
+<!DOCTYPE html><style>    .axis .domain {        display: none;    }</style><svg width="240" height="400"></svg><script src="https://d3js.org/d3.v4.min.js"></script><script>    var svg = d3.select("svg"),        margin = {            top: 20,            right: 20,            bottom: 30,            left: 40        },        width = +svg.attr("width") - margin.left - margin.right,        height = +svg.attr("height") - margin.top - margin.bottom,        g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");    var x = d3.scaleBand()        .rangeRound([0, width])        .paddingInner(0.05)        .align(0.1);    var y = d3.scaleLinear()        .rangeRound([height, 0]);    var z = d3.scaleOrdinal()        .range(["#7b6888", "#d0743c", "#ff8c00"]);    d3.csv("stacked.csv", function(d, i, columns) {        /* d = row data, i = index,        columns is created from the 1st row of the parsed data        +d[columns[i]]  converts the text number        create 'total' attribute for each d */        for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];        d.total = t;        return d;      },      function(error, data) {        if (error) throw error;        var keys = data.columns.slice(1);        data.sort(function(a, b) {            return b.total - a.total;        });        x.domain(data.map(function(d) {            return d.Rep;        }));        y.domain([0, d3.max(data, function(d) {            return d.total;        })]).nice();        z.domain(keys);        g.append("g")            .selectAll("g")            .data(d3.stack().keys(keys)(data))            .enter().append("g")            .attr("fill", function(d) {                return z(d.key);            })            .selectAll("rect")            .data(function(d) {                return d;            })            .enter().append("rect")            .attr("x", function(d) {                return x(d.data.Rep);            })            .attr("y", function(d) {                return y(d[1]);            })            .attr("height", function(d) {                return y(d[0]) - y(d[1]);            })            .attr("width", x.bandwidth());        g.append("g")            .attr("class", "axis")            .attr("transform", "translate(0," + height + ")")            .call(d3.axisBottom(x));        g.append("g")            .attr("class", "axis")            .call(d3.axisLeft(y).ticks(null, "s"))            .append("text")            .attr("x", 2)            .attr("y", y(y.ticks().pop()) + 0.5)            .attr("dy", "0.32em")            .attr("fill", "#000")            .attr("font-weight", "bold")            .attr("text-anchor", "start")            .text("Sales");        var legend = g.append("g")            .attr("font-family", "sans-serif")            .attr("font-size", 10)            .attr("text-anchor", "end")            .selectAll("g")            .data(keys.slice().reverse())            .enter().append("g")            .attr("transform", function(d, i) {                return "translate(0," + i * 20 + ")";            });        legend.append("rect")            .attr("x", width - 19)            .attr("width", 19)            .attr("height", 19)            .attr("fill", z);        legend.append("text")            .attr("x", width - 24)            .attr("y", 9.5)            .attr("dy", "0.32em")            .text(function(d) {                return d;            });    });</script>

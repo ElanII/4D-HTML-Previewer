@@ -2138,3 +2138,609 @@ Scheduled 1/22/17 8:00 AM
 Starting 1/17/17 6:57 PM
 Ending 1/17/17 6:57 PM
 
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:49 AM
+Ending : 9/24/17 6:49 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:50 AM
+Ending : 9/24/17 6:50 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:51 AM
+Ending : 9/24/17 6:51 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:52 AM
+Ending : 9/24/17 6:52 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:53 AM
+Ending : 9/24/17 6:53 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:54 AM
+Ending : 9/24/17 6:54 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:55 AM
+Ending : 9/24/17 6:55 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:56 AM
+Ending : 9/24/17 6:56 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:57 AM
+Ending : 9/24/17 6:57 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:58 AM
+Ending : 9/24/17 6:58 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 6:59 AM
+Ending : 9/24/17 6:59 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:00 AM
+Ending : 9/24/17 7:00 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:00 AM
+Ending : 9/24/17 7:00 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:01 AM
+Ending : 9/24/17 7:01 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:02 AM
+Ending : 9/24/17 7:02 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:03 AM
+Ending : 9/24/17 7:03 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:04 AM
+Ending : 9/24/17 7:04 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:05 AM
+Ending : 9/24/17 7:05 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:06 AM
+Ending : 9/24/17 7:06 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:07 AM
+Ending : 9/24/17 7:07 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:08 AM
+Ending : 9/24/17 7:08 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:10 AM
+Ending : 9/24/17 7:10 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:11 AM
+Ending : 9/24/17 7:11 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:12 AM
+Ending : 9/24/17 7:12 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:13 AM
+Ending : 9/24/17 7:13 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:14 AM
+Ending : 9/24/17 7:14 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:15 AM
+Ending : 9/24/17 7:15 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:16 AM
+Ending : 9/24/17 7:16 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:17 AM
+Ending : 9/24/17 7:17 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:18 AM
+Ending : 9/24/17 7:18 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:19 AM
+Ending : 9/24/17 7:19 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:20 AM
+Ending : 9/24/17 7:20 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:21 AM
+Ending : 9/24/17 7:21 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:22 AM
+Ending : 9/24/17 7:22 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:23 AM
+Ending : 9/24/17 7:23 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:24 AM
+Ending : 9/24/17 7:24 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:25 AM
+Ending : 9/24/17 7:25 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:26 AM
+Ending : 9/24/17 7:26 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:27 AM
+Ending : 9/24/17 7:27 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:28 AM
+Ending : 9/24/17 7:28 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:29 AM
+Ending : 9/24/17 7:29 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:30 AM
+Ending : 9/24/17 7:30 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:31 AM
+Ending : 9/24/17 7:31 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:32 AM
+Ending : 9/24/17 7:32 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:33 AM
+Ending : 9/24/17 7:33 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:34 AM
+Ending : 9/24/17 7:34 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:35 AM
+Ending : 9/24/17 7:35 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:36 AM
+Ending : 9/24/17 7:36 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:37 AM
+Ending : 9/24/17 7:37 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:38 AM
+Ending : 9/24/17 7:38 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:39 AM
+Ending : 9/24/17 7:39 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:40 AM
+Ending : 9/24/17 7:40 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:41 AM
+Ending : 9/24/17 7:41 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:42 AM
+Ending : 9/24/17 7:42 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:43 AM
+Ending : 9/24/17 7:43 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:44 AM
+Ending : 9/24/17 7:44 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:45 AM
+Ending : 9/24/17 7:45 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:46 AM
+Ending : 9/24/17 7:46 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:47 AM
+Ending : 9/24/17 7:47 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:48 AM
+Ending : 9/24/17 7:48 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:49 AM
+Ending : 9/24/17 7:49 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:50 AM
+Ending : 9/24/17 7:50 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:51 AM
+Ending : 9/24/17 7:51 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:52 AM
+Ending : 9/24/17 7:52 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:53 AM
+Ending : 9/24/17 7:53 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:54 AM
+Ending : 9/24/17 7:54 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:55 AM
+Ending : 9/24/17 7:55 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:56 AM
+Ending : 9/24/17 7:56 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:57 AM
+Ending : 9/24/17 7:57 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:58 AM
+Ending : 9/24/17 7:58 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 7:59 AM
+Ending : 9/24/17 7:59 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:00 AM
+Ending : 9/24/17 8:00 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:01 AM
+Ending : 9/24/17 8:01 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:02 AM
+Ending : 9/24/17 8:02 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:03 AM
+Ending : 9/24/17 8:03 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:04 AM
+Ending : 9/24/17 8:04 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:05 AM
+Ending : 9/24/17 8:05 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:06 AM
+Ending : 9/24/17 8:06 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:07 AM
+Ending : 9/24/17 8:07 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:08 AM
+Ending : 9/24/17 8:08 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:09 AM
+Ending : 9/24/17 8:09 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:10 AM
+Ending : 9/24/17 8:10 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:11 AM
+Ending : 9/24/17 8:11 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:12 AM
+Ending : 9/24/17 8:12 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:13 AM
+Ending : 9/24/17 8:13 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:14 AM
+Ending : 9/24/17 8:14 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:15 AM
+Ending : 9/24/17 8:15 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:16 AM
+Ending : 9/24/17 8:16 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:17 AM
+Ending : 9/24/17 8:17 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:18 AM
+Ending : 9/24/17 8:18 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:19 AM
+Ending : 9/24/17 8:19 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:20 AM
+Ending : 9/24/17 8:20 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:21 AM
+Ending : 9/24/17 8:21 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:22 AM
+Ending : 9/24/17 8:22 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:23 AM
+Ending : 9/24/17 8:23 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:24 AM
+Ending : 9/24/17 8:24 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:25 AM
+Ending : 9/24/17 8:25 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:26 AM
+Ending : 9/24/17 8:26 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:27 AM
+Ending : 9/24/17 8:27 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:28 AM
+Ending : 9/24/17 8:28 AM
+
+*** Full Backup aborted
+Error reported : Destination folder can not be created : Kirks_backup:4D_backups:
+Scheduled : 9/25/17 8:00 AM
+Starting : 9/24/17 8:29 AM
+Ending : 9/24/17 8:29 AM
+
